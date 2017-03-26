@@ -50,7 +50,7 @@ h6 {
   margin: 0 auto;
 }
 .bg-light-gray {
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }
 .bg-darkest-gray {
   background-color: #222222;
@@ -68,7 +68,7 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: white;
+  color: black;
   background-color: #fec503;
   border-color: #f6bf01;
 }
@@ -97,10 +97,10 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-primary .badge {
   color: #fed136;
-  background-color: white;
+  background-color: black;
 }
 .btn-xl {
-  color: white;
+  color: black;
   background-color: #fed136;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -115,7 +115,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  color: white;
+  color: black;
   background-color: #fec503;
   border-color: #f6bf01;
 }
@@ -144,7 +144,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .btn-xl .badge {
   color: #fed136;
-  background-color: white;
+  background-color:black;
 }
 .navbar-custom {
   background-color: #222222;
@@ -168,7 +168,7 @@ fieldset[disabled] .btn-xl.active {
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  color: white;
+  color: black;
   font-size: 12px;
 }
 .navbar-custom .navbar-toggle:hover,
@@ -189,7 +189,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
-  color: white;
+  color: black;
   background-color: #fed136;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
@@ -199,7 +199,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: transparent;
+    background-color: black;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -218,7 +218,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: #eeeeee;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
@@ -229,20 +229,23 @@ header {
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
+background-color: #fec503;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: black;
 }
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
+color:black;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial;
+color:black;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
@@ -250,11 +253,14 @@ header .intro-text .intro-lead-in {
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+color:black;  
+text-transform: uppercase;
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
+background-color: #fec503;
+
 }
 @media (min-width: 768px) {
   header .intro-text {
@@ -263,7 +269,8 @@ header .intro-text .intro-heading {
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
+color:black;    
+font-style: italic;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
