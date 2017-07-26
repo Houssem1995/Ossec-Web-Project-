@@ -69,9 +69,9 @@
    		font-weight: bold;
    	}
    	header {
-   		background: #756868  ;
+   		background: #4c4444  ; /* background: #4c4444 */
    		width: 100%;
-   		height: 76px;
+   		height: 60px;
    		position:fixed;
    		top:0;
    		left:0;
@@ -79,14 +79,11 @@
    		opacity: 0.90;
    	}
    	#assec-logo {
-   		margin:10px;
+   		
    		float:left;
-   		width:140px;	
+   		width:120px;	
    	}
-   	nav {
-   		float:right;
-   		padding: 35px 20px 20px 0;
-   	}
+   
    	#menu-icon {
    		display: hidden;
    		width: 40px;
@@ -101,14 +98,35 @@
    		list-style: none;
 
    	}
+   	nav {
+   		float:right;
+   		padding: 0px 20px 20px 0;
+   	}
    	nav ul li {
    		display: inline-block;
+   		text-transform: uppercase;
    		float:left;
-   		padding:10px;
-   	}
-   	.current {
+   		padding:0px 10px 10px 10px;
+   		width:200;
+   		line-height: 60px;
+   		font-size: 12px;
+   		font-family: Lato;
+   		height:60px;
+   	} 
+   	nav ul li:hover {
+   		text-decoration: none;
+   		background-color:#A09990; 
+   	    color:white;
+   	    
+   	} 
+   	nav ul li a:hover {
    		color:#FFF;
-   		text-decoration: underline;
+   		text-decoration: none;
+
+   		}	
+   .current {
+   		background-color:#A09990;
+
    	}
    	section.type1 {
    		width:29%;
@@ -157,7 +175,7 @@
         <nav>
             <a href="#" id="menu-icon"> </a>
             <ul>
-                <li>
+                <li class="current">
                     <a href="../Accueil/index.html" class="current">Home</a>
                 </li>
                 <li>
@@ -221,21 +239,21 @@
   <ul class="slides">
     <li>
       <img src="./images/3.jpg"/>
-      <section class=flex-caption>
-      <h1> Here We Can Add Any Text We Want </h1>
+      <section class="flex-caption introduce-caption" >
+      <h1> Here We Can Add Any <br> Text We Want </h1>
       	<p>   </p>
       	</section>
     </li>
     <li>
      <img src="./images/6.jpg"/>
-      <section class=flex-caption>
+      <section class="flex-caption welcome-caption"> 
       <h1> Welcome To The OSSEC Community </h1>
       	<p> </p>
       	</section>
     </li>
     <li>
-     <img src="./images/3.jpg"/>
-      <section class=flex-caption>
+     <img src="./images/7.jpg"/>
+      <section class="flex-caption plan">
       <h1> We Believe We Change Lives </h1>
       	<p>   </p>
       	</section>

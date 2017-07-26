@@ -204,7 +204,7 @@ html[xmlns] .flexslider .slides {
 .flex-control-nav {
   width: 100%;
   position: absolute;
-  bottom: 3%;
+  bottom: 10%;
   text-align: center;
   z-index: 999;
 }
@@ -269,17 +269,55 @@ html[xmlns] .flexslider .slides {
   opacity: 1;
   cursor: default;
 }
-    .flex-caption h1,
-    .flex-caption p {
+  .flex-caption.introduce-caption  {
 
-      color:#Fff;
-      font-family: Arial;
+      color:#ECF0F1;
+      font-family: Merriweather;
+      padding-left: 5%;
       position: absolute;
-      font-size:45px;
+      line-height:68px;
+      font-size:32px;
       font-weight: bold;
-      top:50%;
-      opacity:0.3;
+      top:3%;
+      left:-5%;
+      -webkit-user-select: none; /* Chrome/Safari */        
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* IE10+ */
     }
+    .flex-caption.welcome-caption
+      {
+
+      color:#EBF5FB;
+      font-family: Merriweather;
+      padding-left: 4%;
+      opacity: 0.7;
+      -webkit-user-select: none; /* Chrome/Safari */        
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* IE10+ */
+      position: absolute;
+      line-height:68px;
+      font-size:32px;
+      font-weight: bold;
+      top:3%;
+      left:-17%;
+      
+    }
+      .flex-caption.plan  {
+
+      color:#ECF0F1;
+      font-family: Merriweather;
+      padding-left: 5%;
+      position: absolute;
+      line-height:68px;
+      font-size:32px;
+      font-weight: bold;
+      top:3%;
+      left:-5%;
+      -webkit-user-select: none; /* Chrome/Safari */        
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* IE10+ */
+    }
+  
    
 
 /* ====================================================================================================================
